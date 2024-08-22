@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilias Amine - Persönliche Webseite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 900px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            border-bottom: 2px solid #444;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        #profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ilias Amine</h1>
+    </header>
+
+    <nav>
+        <a href="#about">Über mich</a>
+        <a href="#education">Ausbildung</a>
+        <a href="#experience">Erfahrungen</a>
+        <a href="#skills">Kenntnisse</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+
+    <section id="about">
+        <h2>Über mich</h2>
+        <img id="profile-pic" src="Bewerbungsbild.jpg" alt="Ilias Amine">
+        <p>Ich bin Ilias Amine, ein angehender Bauingenieur mit einer Leidenschaft für den konstruktiven Ingenieurbau. Derzeit verfolge ich meinen Master of Science an der Hochschule Bochum. Mit fundierten Kenntnissen in der Tragwerksplanung und umfangreicher praktischer Erfahrung in der Bauphysik sowie im Bauwesen, bin ich stets bestrebt, innovative und nachhaltige Lösungen zu entwickeln.</p>
+    </section>
+
+    <section id="education">
+        <h2>Ausbildung</h2>
+        <ul>
+            <li><strong>Master of Science (Bauingenieurwesen)</strong>, Hochschule Bochum, März 2024 - voraussichtlich August 2025, Vertiefung: Konstruktiver Ingenieurbau</li>
+            <li><strong>Bachelor of Science (Bauingenieurwesen)</strong>, Hochschule Bochum, September 2020 - Februar 2024, Durchschnittsnote: 21, Vertiefung: Konstruktiver Ingenieurbau</li>
+            <li><strong>Allgemeine Hochschulreife</strong>, Berufskolleg für Technik und Gestaltung Gelsenkirchen, August 2017 – Juni 2020, Durchschnittsnote: 28</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Erfahrungen und Tätigkeiten</h2>
+        <ul>
+            <li><strong>Werkstudent Bauphysiker</strong>, Intrakon GmbH, Recklinghausen, seit November 2023</li>
+            <li><strong>Praktikum Bauphysiker</strong>, Intrakon GmbH, Recklinghausen, September 2023 – Oktober 2023</li>
+            <li><strong>Werkstudent kaufmännischer Bereich</strong>, Beck & Pollitzer Germany GmbH, Essen, März 2021 – August 2023</li>
+            <li><strong>Aushilfe Einzelhandel</strong>, real GmbH, Gelsenkirchen, Mai 2020 – Januar 2021</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Kenntnisse und Interessen</h2>
+        <ul>
+            <li><strong>Sprachkenntnisse:</strong> Deutsch (Muttersprache), Englisch (sehr gut)</li>
+            <li><strong>EDV-Kenntnisse:</strong> Microsoft Office, CAD (Allplan, Revit), Statik Software (FRILO), BIM-Arbeitsmethode (Dalux, BIMcollab ZOOM)</li>
+            <li><strong>Führerschein:</strong> Klasse B und A2</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p><strong>Adresse:</strong> Ochsenkamp 30, 44579 Castrop-Rauxel</p>
+        <p><strong>Telefon:</strong> +49 176 61878821</p>
+        <p><strong>E-Mail:</strong> iliasamn@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ilias Amine. Alle Rechte vorbehalten.</p>
+    </footer>
+
+</body>
+</html>
