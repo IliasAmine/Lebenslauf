@@ -113,3 +113,56 @@ body {
     background-color: #333;
     color: #fff;
 }
+
+.cv-section {
+    background-color: #2b3a4a;
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+    margin: 40px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.cv-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cv-logo {
+    margin-bottom: 20px;
+}
+
+.cv-icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: #32CD32;
+    font-size: 30px;
+    color: #2b3a4a;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cv-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #32CD32;
+    background-color: #2b3a4a;
+    border: 2px solid #32CD32;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cv-button:hover {
+    background-color: #32CD32;
+    color: #2b3a4a;
+}
+
