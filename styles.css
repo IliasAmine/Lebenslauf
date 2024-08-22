@@ -1,31 +1,32 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
     background-color: #f4f4f4;
+}
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    background: url('your-background-image.jpg') no-repeat center center/cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
-.container {
-    display: flex;
-    width: 80%;
-    max-width: 1200px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-
-.sidebar {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    width: 250px;
+.hero-content {
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: #fff;
 }
 
 .profile-pic {
@@ -36,38 +37,63 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.sidebar nav ul {
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+.main-nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+.main-nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
 
-.sidebar nav ul li {
-    margin: 10px 0;
+.main-nav ul li {
+    margin: 0 15px;
 }
 
-.sidebar nav ul li a {
+.main-nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.sidebar nav ul li a:hover {
-    text-decoration: underline;
+.main-nav ul li a:hover {
+    color: #ccc;
 }
 
-.content {
+.content-section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
     background-color: #fff;
-    padding: 30px;
-    width: calc(100% - 250px);
-}
-
-.content section {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
 }
 
-.content section h2 {
+.content-section h2 {
     margin-top: 0;
+    font-size: 1.8em;
     border-bottom: 2px solid #333;
     padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
 }
