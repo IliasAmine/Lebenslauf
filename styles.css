@@ -9,8 +9,16 @@ body {
 .hero-section {
     position: relative;
     height: 100vh;
-    background: url('image.png') no-repeat center center/cover;
+    background: url('your-background-image.jpg') no-repeat center center/cover;
     color: #fff;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .main-nav {
@@ -165,4 +173,3 @@ body {
     background-color: #32CD32;
     color: #2b3a4a;
 }
-
